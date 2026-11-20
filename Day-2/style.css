@@ -7,12 +7,13 @@ h1 {
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
+    border: 100px black solid;
 
 }
 
 /* background properties */
-body {
+/* body {
     background-image: url("download.webp");
     background-size: cover;
     background-position: right;
-}
+} */

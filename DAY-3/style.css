@@ -1,0 +1,16 @@
+* {
+    border: 1px solid black;
+}
+
+#divider-2 {
+
+    border: 2px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: black;
+}
+
+#about {
+    height: 200px;
+    width: 300px;
+}
