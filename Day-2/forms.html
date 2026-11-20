@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Day-2 Forms</title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+    <h1>Login form</h1>
+    <form>
+        <lable class = "labels">Full Name</lable>
+        <input type="text" id="fullname" placeholder="enter your name" required>
+        <br>
+        <lable >Email</lable>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <br>
+        <label>password</label>
+        <input type="password" id="password">
+        <br>
+        <label>date of birth</label>
+        <input type="date" id="date">
+        <br>
+        <label>age</label>
+        <input type="number" id="age" min="10" max="70">
+        <br>
+        <label>Upload profile picture (only upload images upto 30kb)</label>
+        <input type="file" id="photo" accept="image/*">
+        <br>
+        <p>Select Gender</p>
+        <input type="radio" id="Male">
+        <lable for="Male">Male</lable>
+        <br>
+        <input type="radio" id="Female">
+        <label for="Female">Female</label>
+        <br>
+        <p>select languages known</p>
+        <input type="checkbox" id="lang1">
+        <lable for="lang1">English</lable>
+        <br>
+        <input type="checkbox" id="lang2">
+        <label for="lang2">Hindi</label>
+        <br>
+        <input type="checkbox" id="lang3">
+        <label for="lang3">Tamil</label>
+        <br>
+        <input type="checkbox" id="lang4">
+        <label for="lang4">Kannada</label>
+        <br>
+        <label>Select a course</label>
+        <select>
+            <option value="">choose a course</option>
+            <option value="fullstack with python">Python full stack</option>
+            <option value="fullstack with java">Java full stack</option>
+            <option value="datascience">DataScience using Python</option>
+        </select>
+        <br>
+        <label>Address:</label>
+        <textarea placeholder="enter your permanent address"></textarea>
+        <br>
+        <button>Register</button>
+
+    </form>
+</body>
+
+</html>
